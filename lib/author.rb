@@ -12,9 +12,9 @@ class Author
   end
   
   def add_post(post)
+    post.author = self
     @posts << post
-    @@posts += 1
-post.authorel = sf
+    @@posts += 1 
   end
 
 end

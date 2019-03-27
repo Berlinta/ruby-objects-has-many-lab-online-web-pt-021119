@@ -4,7 +4,7 @@ class Author
   
   @@posts = 0
   
-  attr_accessor :name, :posts, :author
+  attr_accessor :name, :posts
   
   def initialize(name)
     @name = name

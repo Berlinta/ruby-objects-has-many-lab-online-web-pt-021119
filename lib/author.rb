@@ -12,10 +12,11 @@ class Author
   end
   
   def add_post(post)
-    binding.pry
+    #binding.pry
     post.author = self 
     @posts << post 
     @@posts += 1
+    binding.pry
   end
 
 end

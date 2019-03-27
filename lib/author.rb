@@ -18,5 +18,8 @@ class Author
     @@posts += 1
     #binding.pry
   end
+  
+  def add_post_by_title(title)
+  end
 
 end

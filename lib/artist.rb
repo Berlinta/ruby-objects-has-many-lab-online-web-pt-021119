@@ -26,12 +26,12 @@ class Artist
     @@songs
   end
   
-  def artist_name
-    if self.artist_name
-      self.artist_name.name
-    else
-      nil
-    end
-  end
+  # def artist_name
+  #   if self.artist_name
+  #     self.artist_name.name
+  #   else
+  #     nil
+  #   end
+  # end
 
 end

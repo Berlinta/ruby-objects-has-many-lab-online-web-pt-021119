@@ -2,7 +2,7 @@ require 'pry'
 
 class Author
   
-  @@posts = 
+  @@posts = 0
   
   attr_accessor :name, :posts
   

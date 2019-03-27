@@ -16,7 +16,7 @@ class Author
     post.author = self 
     @posts << post 
     @@posts += 1
-    binding.pry
+    #binding.pry
   end
 
 end

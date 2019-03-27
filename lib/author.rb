@@ -11,7 +11,7 @@ class Author
     @posts = []
   end
   
-  def self.add_post(post)
+  def add_post(post)
     @posts << post
     # post.author = self
   end
